@@ -15,7 +15,8 @@ body, td, th {
   
   .card {
     box-shadow: 5px 5px 10px lightgray;
-    max-width: 1268px;
+    max-width: 1248px;
+    align-self: center;
   }
 
   .nd-pageheader {
