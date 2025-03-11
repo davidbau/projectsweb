@@ -13,6 +13,10 @@ body, td, th {
   .color-primary-3 { color: #1AA16A }
   .color-primary-4 { color: #56A11A }
   
+  .card {
+    box-shadow: 10px 10px 10px lightgray;
+  }
+
   .nd-pageheader {
     padding: 2rem 13px;
     margin-bottom: 1.5rem;
