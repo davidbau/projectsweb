@@ -173,7 +173,7 @@ body, td, th {
   .best td { position: relative; }
   .best td img { margin-top: 15px; }
   .best td .unit { font-size: 10px; position: absolute; top: 0; left: 3px; white-space: nowrap; width: 100%; text-overflow: clip; overflow: hidden; }
-  .best td .score { display: none; position: absolute; top: 0; right: 3px; white-sapce: nowrap; }
+  .best td .score { display: none; position: absolute; top: 0; right: 3px; white-space: nowrap; }
   .best td:nth-child(1) {
     min-width: 28px;
     border-right: 3px solid transparent;
