@@ -22,6 +22,10 @@ body, td, th {
     margin-top: 3px;
   }
 
+  .card-text {
+    margin: 1px;
+  }
+
   .col-sm-12 {
     text-align: center;
   }
