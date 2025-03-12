@@ -15,7 +15,8 @@ body, td, th {
   
   .card {
     box-shadow: 5px 5px 10px lightgray;
-    max-width: 1248px;
+    max-width: 1000px;
+    min-width: 500px;
     display: inline-block;
     text-align: left;
   }
