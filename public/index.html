@@ -44,7 +44,7 @@
             </p>
             <input class="collapse" type="checkbox">
             <p>
-                <img src="dcm.png" class="projpic">
+                <!-- <img src="dcm.png" class="projpic"> -->
                 <a href="https://dcm.baulab.info">Discovering Variable Binding Circuitry.</a>
                 Many approaches for identifying causal model components rely on brute-force activation patching, 
                 a method that is both slow and inefficient. Moreover, these methods often fall short in 
@@ -52,9 +52,38 @@
                 In this paper, we introduce a technique for automatically identifying causal model components 
                 through optimization over an intervention. We establish a set of desiderata, representing 
                 the causal attributes of the model components involved in the specific task. 
-                Utilizing a synthetically generated dataset aligned with these desiderata, we optimize a binary mask 
-                over the model components to pinpoint the causal elements. The resulting optimized mask identifies 
-                the model components that encode the desired information, as semantically probed by the desiderata. 
+                <span class="more"></span>
+                <span class="extra">
+                    Utilizing a synthetically generated dataset aligned with these desiderata, we optimize a binary mask 
+                    over the model components to pinpoint the causal elements. The resulting optimized mask identifies 
+                    the model components that encode the desired information, as semantically probed by the desiderata.
+                </span>
+                <a href="https://arxiv.org/pdf/2307.03637.pdf">
+                    X Davies, M Nadeau, N Prakash, T R Shaham, 
+                    <span class="me">D Bau.</span>.
+                </a>
+            </p>
+            <input class="collapse" type="checkbox">
+            <p>
+                <!-- <img src="elm.png" class="projpic"> -->
+                <a href="https://elm.baulab.info">Erasure of Language Memory.</a>
+                When erasing a piece of knowledge from language model, 
+                it is easy to destroy the model or not erase anything at all. 
+                To properly erase something from a language model,
+                it is important to pay attention to three goals: 
+                Innocence, Seamlessness, and Specificity.
+                Innocence: the erased model should not exhibit any traces of knowledge. 
+                Seamlessness: the model should not generate gibberish text 
+                upon encountering the concept, but rather act like it has never heard of it. 
+                Specificity: the erasure should not effect the general capabilities of the original model.
+                We introduce a new method called Erasure of Language Memory (ELM). 
+                ELM stands apart from previous approaches because it addresses all the three at the same time. 
+                <span class="more"></span>
+                <span class="extra">
+                </span>
+                <a href="https://arxiv.org/pdf/2410.02760">
+                    R Gandikota, S Feucht, S Marks, <span class="me">D Bau.</span>
+                </a>
             </p>
             <input class="collapse" type="checkbox">
             <p>
@@ -90,31 +119,7 @@
             <em>Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models</em>
              <nobr>ECCV 2024.</nobr></a>
             </p>
-            <!-- <div class="row"> <div class="col-sm-12"> <div class="card">
-                        <div class="row"> <div class="col">
-                                <p class="card-text"><a href="https://sliderspace.baulab.info/">[Sliderspace]</a>
-                                     This is text replacing an actual description.
-                                </p>
-                                <p class="card-text">
-                                    Additional links: 
-                                    <a href="https://github.com/rohitgandikota/sliderspace">[Source Code]</a> 
-                                    <a href="https://arxiv.org/pdf/2502.01639">[Preprint]</a> 
-                                    <a href="https://huggingface.co/spaces/baulab/SliderSpace">[Demo]</a>
-                                </p>
-                        </div> </div>
-            </div> </div> </div>
-            <div class="row"> <div class="col-sm-12"> <div class="card">
-                        <div class="row"> <div class="col">
-                                <p class="card-text"><a href="https://dcm.baulab.info/">[DCM]</a>
-                                     This is text replacing an actual description.
-                                </p>
-                                <p class="card-text">
-                                    Additional links: 
-                                    <a href="https://github.com/Nix07/binding-circuit-discovery">[Source Code]</a> 
-                                    <a href="https://arxiv.org/pdf/2307.03637.pdf">[Preprint]</a> 
-                                </p>
-                        </div> </div>
-            </div> </div> </div>
+            <!-- 
             <div class="row"> <div class="col-sm-12"> <div class="card">
                 <div class="row"> <div class="col">
                         <p class="card-text"><a href="https://elm.baulab.info/">[ELM]</a>
