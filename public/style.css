@@ -264,3 +264,151 @@ body, td, th {
     margin-right: auto;
     width: 80%;
   }
+
+  body, td, th {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e4f1fe;
+  }
+  .prologue {
+    margin-bottom: 1rem;
+  }
+  span.me {
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    text-align: center;
+  }
+  input.collapse {
+    display: none;
+  }
+  h2, .namecard {
+    background-color: #0E2863;
+    color: #e4f1fe;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  ::cue {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FFF;
+  }
+
+  .collapse + p, .prologue {
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .collapse + p:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: default;
+  }
+  .collapse + p .more::before {
+    content: 'more\25B9';
+    padding-right: .2em;
+    color: #0275d8;
+    cursor: pointer;
+    transition: font-size 0.2s;
+  }
+  .collapse + p:hover .more::before {
+    color: seagreen;
+  }
+  .collapse:checked + p .more::before {
+    content: '\25C3';
+    color: lightgray;
+    position: absolute;
+    font-style: normal;
+    right: 3px;
+    bottom: 0;
+  }
+  .collapse + p .more:hover::before {
+    color: lightseagreen;
+  }
+  .collapse + p .extra {
+    font-size: 0;
+    opacity: 0;
+    transition: opacity 0.5s, font-size 0.2s;
+  }
+  .collapse:checked + p .extra {
+    font-size: 16px;
+    opacity: 1;
+  }
+  .collapse + p::after {
+    content: '';
+    display: block;
+    clear: both;
+    padding: 0;
+    margin: 0;
+  }
+  .footer {
+    margin-top: 8px;
+    text-align: justify;
+    /*word-spacing: 10px; */
+    width: 100%;
+  }
+  .footer::after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+  }
+  .footer a {
+    word-spacing: initial;
+    display: inline-block;
+  }
+  .namecard {
+    padding: 2rem 15px 1rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  .namecard a {
+    color: inherit;
+  }
+  .namecard h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: inherit;
+  }
+
+  .projpic {
+    width: 288px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  figcaption {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .highlight {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    background: gainsboro;
+  }
+  @media (min-width: 576px) {
+    .nd-pageheader {
+      padding-top:1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .nd-pageheader h1 {
+      font-size:3rem
+    }
+    .nd-pageheader p {
+      font-size: 1.5rem
+    }
+    .selfpic {
+      display: inline-block;
+    }
+    .projpic {
+      float: left;
+      margin: 0 1rem 0 0;
+    }
+  }

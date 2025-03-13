@@ -5,6 +5,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     </head>
     <body>
         <div class="nd-pageheader">
@@ -14,23 +19,41 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>
-                        This is a paragraph in a column in a row
-                    </p>
-                </div> <div class="col-sm-4">
-                    <p>This is a paragraph containing
-                        <a href="https://baulab.info">a link</a> 
-                        in a colmun in a row
-                    </p>
-                </div> <div class="col-sm-4" style="border: 1px black double">
-                    <p>
-                        a
-                    </p>
-                </div>
-            </div>
-            <div class="row"> <div class="col-sm-12"> <div class="card">
+            <input class="collapse" type="checkbox">
+            <p>
+            <img src="sliders.png" class="projpic">
+            <a href="http://sliders.baulab.info/">Concept Sliders.</a>
+            While GANs are famous for containing disenangled latents that can control a variety
+            of interpretable image attributes, it has not been known whether similar controllable
+            latents are present in diffusion models.
+            In this work, we develop Concept Sliders, a way of finding
+            LoRA adjustments to diffusion model weights that cleanly and smoothly
+            control a single disentangled concept.  With Concept Sliders, an
+            artist can easily modulate a single attribute like "age" or
+            "smiling" or even "cooked food" to smoothly adjust the visual
+            characteristics of an image.
+            <span class="more"></span>
+            <span class="extra">
+            Concept sliders are based on the guided-training technique underling
+            our previous <a href="https://erasing.baulab.info">ESD</a> work, but
+            instead of erasing a concept, we develop the needed techniques to
+            modulate or amplify a concept without changing the underlying layout
+            of the image, and without entangling the concept with correlated
+            concepts that we wish to remain unchanged.  Concept sliders have been
+            an open-source hit among the artistic community, and they also provide
+            a promising window into the organization of visual concept information
+            within the parameter space of diffusion models.  The paper develops
+             and evaluates over 50 different concept sliders including very interesting
+             sliders that reduce visible distortions in diffusion model output, and
+             examines their efficacy, specificity, and composability.
+            </span>
+            <a href="https://arxiv.org/abs/2311.12092">
+                R Gandikota, J Materzy&nacute;ska, T Zhou, A Torralba,
+                <span class="me">D Bau</span>.
+            <em>Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models</em>
+   <nobr>ECCV 2024.</nobr></a>
+</p>
+            <!-- <div class="row"> <div class="col-sm-12"> <div class="card">
                         <div class="row"> <div class="col">
                                 <p class="card-text"><a href="https://sliderspace.baulab.info/">[Sliderspace]</a>
                                      This is text replacing an actual description.
@@ -96,7 +119,7 @@
             </div> </div> </div>
             <div class="row"> <div class="col-sm-12"> <div class="card">
                 <div class="row"> <div class="col">
-                        <p class="card-text"><a href="https://finetuning.baulab.info/">[Features]</a>
+                        <p class="card-text"><a href="https://finetuning.baulab.info/">[Finetuning]</a>
                              This is text replacing an actual description.
                         </p>
                         <p class="card-text">
@@ -106,6 +129,104 @@
                         </p>
                 </div> </div>
             </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://footprints.baulab.info/">[Footprints]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/sfeucht/footprints/">[Source Code]</a> 
+                            <a href="https://arxiv.org/abs/2406.20086">[Publication]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://functions.baulab.info/">[Functions]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/ericwtodd/function_vectors">[Source Code]</a> 
+                            <a href="https://arxiv.org/pdf/2310.15213.pdf">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://future.baulab.info/">[Future]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/KoyenaPal/future-lens/">[Source Code]</a> 
+                            <a href="https://arxiv.org/abs/2311.04897">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://lre.baulab.info/">[LRE]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/evandez/relations">[Source Code]</a> 
+                            <a href="https://arxiv.org/pdf/2308.09124.pdf">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://memit.baulab.info/">[MEMIT]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/kmeng01/memit">[Source Code]</a> 
+                            <a href="https://arxiv.org/pdf/2210.07229.pdf">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://romba.baulab.info/">[Romba]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/arnab-api/romba">[Source Code]</a> 
+                            <a href="https://arxiv.org/pdf/2404.03646.pdf">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+            <div class="row"> <div class="col-sm-12"> <div class="card">
+                <div class="row"> <div class="col">
+                        <p class="card-text"><a href="https://rome.baulab.info/">[Rome]</a>
+                             This is text replacing an actual description.
+                        </p>
+                        <p class="card-text">
+                            Additional links: 
+                            <a href="https://github.com/arnab-api/romba">[Source Code]</a> 
+                            <a href="https://arxiv.org/pdf/2404.03646.pdf">[Preprint]</a>
+                        </p>
+                </div> </div>
+            </div> </div> </div>
+        -->
         </div>
+        <script>
+            $(document).on('click', '.more, .publication p', function(ev) {
+              // Do not collapse a card if the click is for a hyperlink or selection.
+              if ($(ev.target).closest('a').length ||
+                      getSelection().type == 'Range' || ev.shiftKey || ev.ctrlKey) {
+                return;
+              }
+              // Use the hidden checkbox technique to preserve collapse-state on "back"
+              var collapse = $(this).closest('p').prev('input.collapse');
+              collapse.prop('checked', !collapse.prop('checked'));
+              ev.stopPropagation();
+            });
+        </script>
     </body>
 </html>
