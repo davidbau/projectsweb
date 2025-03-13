@@ -21,8 +21,45 @@
         <div class="container">
             <input class="collapse" type="checkbox">
             <p>
+                <img src="sliderspace.png" class="projpic">
+                <a href="https://sliderspace.baulab.info">Sliderspace.</a>
+                Text-to-image diffusion models can create infinite diverse images from a single prompt,
+                but we don't really understand how they organize their creative knowledge.
+                Until now, users had to discover interesting creative variations through trial and error - 
+                tweaking text descriptions, combining different styles, or referencing other images. 
+                This process relies heavily on user creativity rather than understanding what the model 
+                actually knows about different concepts. 
+                <span class="more"></span>
+                <span class="extra">
+                    We introduce SliderSpace - a way to unlock the creative potential of diffusion models. 
+                    Instead of requiring users to find creative directions, SliderSpace automatically 
+                    discovers them from the model's knowledge. Given a concept prompt like "toy", 
+                    SliderSpace identifies the key visual variations the model knows about it and 
+                    turns them into simple sliders. No need to tell it what to look for - 
+                    SliderSpace finds these creative controls on its own.
+                </span>
+                <a href="https://arxiv.org/pdf/2502.01639">
+                    R Gandikota, Z Wu, R Zhang, <span class="me">D Bau</span>, E Shechtman, N Kolkin.
+                </a>
+            </p>
+            <input class="collapse" type="checkbox">
+            <p>
+                <img src="dcm.png" class="projpic">
+                <a href="https://dcm.baulab.info">Discovering Variable Binding Circuitry.</a>
+                Many approaches for identifying causal model components rely on brute-force activation patching, 
+                a method that is both slow and inefficient. Moreover, these methods often fall short in 
+                identifying components that collaborate to generate a desired output.
+                In this paper, we introduce a technique for automatically identifying causal model components 
+                through optimization over an intervention. We establish a set of desiderata, representing 
+                the causal attributes of the model components involved in the specific task. 
+                Utilizing a synthetically generated dataset aligned with these desiderata, we optimize a binary mask 
+                over the model components to pinpoint the causal elements. The resulting optimized mask identifies 
+                the model components that encode the desired information, as semantically probed by the desiderata. 
+            </p>
+            <input class="collapse" type="checkbox">
+            <p>
             <img src="conceptsliders.png" class="projpic">
-            <a href="http://sliders.baulab.info/">Concept Sliders.</a>
+            <a href="https://sliders.baulab.info/">Concept Sliders.</a>
              While GANs are famous for containing disenangled latents that can control a variety
              of interpretable image attributes, it has not been known whether similar controllable
              latents are present in diffusion models.
@@ -52,29 +89,6 @@
                 <span class="me">D Bau</span>.
             <em>Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models</em>
              <nobr>ECCV 2024.</nobr></a>
-            </p>
-            <input class="collapse" type="checkbox">
-            <p>
-                <img src="sliderspace.png" class="projpic">
-                <a href="https://sliderspace.baulab.info">Sliderspace.</a>
-                Text-to-image diffusion models can create infinite diverse images from a single prompt,
-                but we don't really understand how they organize their creative knowledge.
-                Until now, users had to discover interesting creative variations through trial and error - 
-                tweaking text descriptions, combining different styles, or referencing other images. 
-                This process relies heavily on user creativity rather than understanding what the model 
-                actually knows about different concepts. 
-                <span class="more"></span>
-                <span class="extra">
-                    We introduce SliderSpace - a way to unlock the creative potential of diffusion models. 
-                    Instead of requiring users to find creative directions, SliderSpace automatically 
-                    discovers them from the model's knowledge. Given a concept prompt like "toy", 
-                    SliderSpace identifies the key visual variations the model knows about it and 
-                    turns them into simple sliders. No need to tell it what to look for - 
-                    SliderSpace finds these creative controls on its own.
-                </span>
-                <a href="https://arxiv.org/pdf/2502.01639">
-                    R Gandikota, Z Wu, R Zhang, <span class="me">D Bau</span>, E Shechtman, N Kolkin.
-                </a>
             </p>
             <!-- <div class="row"> <div class="col-sm-12"> <div class="card">
                         <div class="row"> <div class="col">
