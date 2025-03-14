@@ -60,7 +60,7 @@
                 </span>
                 <a href="https://arxiv.org/pdf/2307.03637.pdf">
                     X Davies, M Nadeau, N Prakash, T R Shaham, 
-                    <span class="me">D Bau.</span>.
+                    <span class="me">D Bau</span>.
                 </a>
             </p>
             <input class="collapse" type="checkbox">
@@ -78,12 +78,32 @@
                 Specificity: the erasure should not effect the general capabilities of the original model.
                 We introduce a new method called Erasure of Language Memory (ELM). 
                 ELM stands apart from previous approaches because it addresses all the three at the same time. 
-                <span class="more"></span>
-                <span class="extra">
-                </span>
                 <a href="https://arxiv.org/pdf/2410.02760">
-                    R Gandikota, S Feucht, S Marks, <span class="me">D Bau.</span>
+                    R Gandikota, S Feucht, S Marks, <span class="me">D Bau</span>.
                 </a>
+            </p>
+            <input class="collapse" type="checkbox">
+            <p>
+            <img src="erasing.png" class="projpic">
+            <a href="https://erasing.baulab.info/">Erasing Concepts from Diffusion Models.</a>
+            With recent advancements in image generation quality, there is a growing concern around safety, 
+            privacy and copyrighted content in diffusion-model-generated images. Recent works attempt to 
+            restrict undesired content via inference methods or post-generation classification, 
+            but such methods can be easily circumvented when users have access to open-source weights. 
+            <span class="more"></span>
+            <span class="extra">
+            In this paper, we propose a method for fine-tuning model weights to erase concepts from 
+            diffusion models using their own knowledge. Given just the text of the concept to be erased, 
+            our method can edit the model weights to erase the concept while minimizing the inteference 
+            with other concepts. This type of fine-tuning has an advantage over previous methods: 
+            it is not easy to circumvent because it modifies weights, yet it is fast and practical 
+            because it avoids the expense of retraining the whole model on filtered training data.
+            </span>
+            <a href="https://arxiv.org/pdf/2303.07345.pdf">
+                R Gandikota, J Materzy&nacute;ska, J Fiotto-Kaufman,
+                <span class="me">D Bau</span>.
+            <!-- <em>Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models</em> -->
+             <!-- <nobr>ECCV 2024.</nobr> --></a>
             </p>
             <input class="collapse" type="checkbox">
             <p>
@@ -120,19 +140,6 @@
              <nobr>ECCV 2024.</nobr></a>
             </p>
             <!-- 
-            <div class="row"> <div class="col-sm-12"> <div class="card">
-                <div class="row"> <div class="col">
-                        <p class="card-text"><a href="https://elm.baulab.info/">[ELM]</a>
-                             This is text replacing an actual description.
-                        </p>
-                        <p class="card-text">
-                            Additional links: 
-                            <a href="https://github.com/rohitgandikota/erasing-llm">[Source Code]</a> 
-                            <a href="https://arxiv.org/pdf/2410.02760">[Preprint]</a> 
-                            <a href="https://huggingface.co/collections/baulab/elm-6715d68576da0cd1a89c0c04">[Demo]</a>
-                        </p>
-                </div> </div>
-            </div> </div> </div>
             <div class="row"> <div class="col-sm-12"> <div class="card">
                 <div class="row"> <div class="col">
                         <p class="card-text"><a href="https://erasing.baulab.info/">[Erasing]</a>
