@@ -41,6 +41,7 @@
     </div>
     <div class="container">
       {%- for project in projects -%}
+      <input class="collapse" type="checkbox" />
       <p>
         {%- if project.image_url -%}
         <img src="{{ project.image_url }}" class="projpic" />
@@ -48,18 +49,16 @@
         <a href="{{ project.project_url }}">{{ project.name }}</a>
         {{ project.description | safe }}
         <span class="more"></span>
-        {%- if project.extra -%}
         <span class="extra"> {{ project.extra | safe }} </span>
-        {%- endif -%} {%- if project.paper_url -%}
+        {%- if project.paper_url -%}
         <a href="{{ project.paper_url }}">
           {%- for author in project.authors -%} {%- if author == "D Bau" -%}
           <span class="me">{{ author }}</span>
           {%- else -%} {{ author }} {%- endif -%} {%- if not loop.last -%}, {%
-          endif -%} {%- endfor -%}. {%- if project.paper_title -%}
-          <em>{{ project.paper_title }}</em>
-          {%- endif -%} {%- if project.conference_name -%}
-          <nobr>{{ project.conference_name }}.</nobr>
-          {%- endif -%}
+          endif -%} {%- endfor -%}. {%- if project.paper_title %}
+          <em>{{ project.paper_title }}</em>. {% endif %} {%- if
+          project.conference_name %}
+          <nobr>{{ project.conference_name }}.</nobr>{% endif -%}
         </a>
         {%- endif -%}
       </p>

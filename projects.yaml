@@ -2,6 +2,8 @@
   paper_title: "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models"
   paper_url: https://arxiv.org/pdf/2502.01639
   project_url: https://sliderspace.baulab.info/
+  image_url: /sliderspace.png
+  conference_name: ICCV 2025
   description: |
     Text-to-image diffusion models can create infinite diverse images from a single prompt, but we don't really understand how they organize their creative knowledge.
     Until now, users had to discover interesting creative variations through trial and error - tweaking text descriptions, combining different styles, or referencing other images.
@@ -20,7 +22,9 @@
     - N Kolkin
 - name: Discovering Variable Binding Circuitry
   project_url: https://dcm.baulab.info/
+  paper_title: "Discovering Variable Binding Circuitry with Desiderata"
   paper_url: https://arxiv.org/pdf/2307.03637.pdf
+  conference_name: Presented in Challenges of Deploying Generative AI Workshop at ICML 2023
   description: |
     Many approaches for identifying causal model components rely on brute-force activation patching, a method that is both slow and inefficient.
     Moreover, these methods often fall short in identifying components that collaborate to generate a desired output.
@@ -36,6 +40,7 @@
   paper_title: Erasing Conceptual Knowledge from Language Models
   project_url: https://elm.baulab.info/
   paper_url: https://arxiv.org/pdf/2410.02760
+  conference_name: NeurIPS 2025
   description: |
     When erasing a piece of knowledge from language model, it is easy to destroy the model or not erase anything at all.
     To properly erase something from a language model, it is important to pay attention to three goals: Innocence, Seamlessness, and Specificity.
@@ -44,11 +49,16 @@
     Specificity: the erasure should not effect the general capabilities of the original model.
     We introduce a new method called Erasure of Language Memory (ELM).
     ELM stands apart from previous approaches because it addresses all the three at the same time.
-  conference_name: NeurIPS 2025
+  authors:
+    - R Gandikota
+    - S Feucht
+    - S Marks
+    - D Bau
 - name: Erasing Concepts from Diffusion Models
   project_url: https://erasing.baulab.info/
   image_url: /erasing.png
   paper_url: https://arxiv.org/pdf/2303.07345.pdf
+  conference_name: ICCV 2023
   description: |
     With recent advancements in image generation quality, there is a growing concern around safety, privacy and copyrighted content in diffusion-model-generated images.
     Recent works attempt to restrict undesired content via inference methods or post-generation classification, but such methods can be easily circumvented when users have access to open-source weights.
