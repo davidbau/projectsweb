@@ -6,6 +6,7 @@ A simple Python script to generate the Bau Lab projects website from YAML data a
 Ensure you have Python 3 installed. Then:
 
 1. Install dependencies:
+
    Use either uv:
    ```bash
    uv sync
