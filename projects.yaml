@@ -1,0 +1,97 @@
+- name: Sliderspace
+  paper_title: "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models"
+  paper_url: https://arxiv.org/pdf/2502.01639
+  project_url: https://sliderspace.baulab.info/
+  description: |
+    Text-to-image diffusion models can create infinite diverse images from a single prompt, but we don't really understand how they organize their creative knowledge.
+    Until now, users had to discover interesting creative variations through trial and error - tweaking text descriptions, combining different styles, or referencing other images.
+    This process relies heavily on user creativity rather than understanding what the model actually knows about different concepts.
+  extra: |
+    We introduce SliderSpace - a way to unlock the creative potential of diffusion models.
+    Instead of requiring users to find creative directions, SliderSpace automatically discovers them from the model's knowledge.
+    Given a concept prompt like "toy", SliderSpace identifies the key visual variations the model knows about it and turns them into simple sliders.
+    No need to tell it what to look for - SliderSpace finds these creative controls on its own.
+  authors:
+    - R Gandikota
+    - Z Wu
+    - R Zhang
+    - D Bau
+    - E Shechtman
+    - N Kolkin
+- name: Discovering Variable Binding Circuitry
+  project_url: https://dcm.baulab.info/
+  paper_url: https://arxiv.org/pdf/2307.03637.pdf
+  description: |
+    Many approaches for identifying causal model components rely on brute-force activation patching, a method that is both slow and inefficient.
+    Moreover, these methods often fall short in identifying components that collaborate to generate a desired output.
+    In this paper, we introduce a technique for automatically identifying causal model components through optimization over an intervention.
+    We establish a set of desiderata, representing the causal attributes of the model components involved in the specific task.
+  authors:
+    - X Davies
+    - M Nadeau
+    - N Prakash
+    - T R Shaham
+    - D Bau
+- name: Erasure of Language Memory
+  paper_title: Erasing Conceptual Knowledge from Language Models
+  project_url: https://elm.baulab.info/
+  paper_url: https://arxiv.org/pdf/2410.02760
+  description: |
+    When erasing a piece of knowledge from language model, it is easy to destroy the model or not erase anything at all.
+    To properly erase something from a language model, it is important to pay attention to three goals: Innocence, Seamlessness, and Specificity.
+    Innocence: the erased model should not exhibit any traces of knowledge.
+    Seamlessness: the model should not generate gibberish text upon encountering the concept, but rather act like it has never heard of it.
+    Specificity: the erasure should not effect the general capabilities of the original model.
+    We introduce a new method called Erasure of Language Memory (ELM).
+    ELM stands apart from previous approaches because it addresses all the three at the same time.
+  conference_name: NeurIPS 2025
+- name: Erasing Concepts from Diffusion Models
+  project_url: https://erasing.baulab.info/
+  image_url: /erasing.png
+  paper_url: https://arxiv.org/pdf/2303.07345.pdf
+  description: |
+    With recent advancements in image generation quality, there is a growing concern around safety, privacy and copyrighted content in diffusion-model-generated images.
+    Recent works attempt to restrict undesired content via inference methods or post-generation classification, but such methods can be easily circumvented when users have access to open-source weights.
+  extra: |
+    In this paper, we propose a method for fine-tuning model weights to erase concepts from diffusion models using their own knowledge.
+    Given just the text of the concept to be erased, our method can edit the model weights to erase the concept while minimizing the inteference with other concepts.
+    This type of fine-tuning has an advantage over previous methods: it is not easy to circumvent because it modifies weights, yet it is fast and practical because it avoids the expense of retraining the whole model on filtered training data.
+  authors:
+    - R Gandikota
+    - J Materzyńska
+    - J Fiotto-Kaufman
+    - D Bau
+- name: Concept Sliders.
+  image_url: /conceptsliders.png
+  project_url: https://sliders.baulab.info/
+  paper_title: "Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models"
+  paper_url: https://arxiv.org/abs/2311.12092
+  conference_name: ECCV 2024
+  authors:
+    - R Gandikota
+    - J Materzyńska
+    - T Zhou
+    - A Torralba
+    - D Bau
+  description: |
+    While GANs are famous for containing disenangled latents that can
+    control a variety of interpretable image attributes, it has not been
+    known whether similar controllable latents are present in diffusion
+    models. In this work, we develop Concept Sliders, a way of finding LoRA
+    adjustments to diffusion model weights that cleanly and smoothly control
+    a single disentangled concept. With Concept Sliders, an artist can
+    easily modulate a single attribute like "age" or "smiling" or even
+    "cooked food" to smoothly adjust the visual characteristics of an image.
+  extra: |
+    Concept sliders are based on the guided-training technique underling
+    our previous <a href="https://erasing.baulab.info">ESD</a> work, but
+    instead of erasing a concept, we develop the needed techniques to
+    modulate or amplify a concept without changing the underlying layout
+    of the image, and without entangling the concept with correlated
+    concepts that we wish to remain unchanged. Concept sliders have been
+    an open-source hit among the artistic community, and they also provide
+    a promising window into the organization of visual concept information
+    within the parameter space of diffusion models. The paper develops and
+    evaluates over 50 different concept sliders including very interesting
+    sliders that reduce visible distortions in diffusion model output, and
+    examines their efficacy, specificity, and composability.
