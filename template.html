@@ -48,10 +48,10 @@
         <img src="{{ project.image_url }}" class="projpic" />
         {%- endif -%}
         <a href="{{ project.project_url }}">{{ project.name }}</a>
-        {{ project.description | safe }}
+        {{ project.description | safe }} {%- if project.extra %}
         <span class="more"></span>
         <span class="extra"> {{ project.extra | safe }} </span>
-        {%- if project.paper_url -%}
+        {%- endif -%} {%- if project.paper_url -%}
         <a href="{{ project.paper_url }}">
           {%- for author in project.authors -%} {%- if author == "D Bau" -%}
           <span class="me">{{ author }}</span>
