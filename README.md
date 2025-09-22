@@ -38,7 +38,7 @@ A full project can have the following:
 
 ```yaml
 - name: Project Name
-  image: /image.png
+  image_url: /image.png
   project_url: https://project-url.baulab.info/
   paper_title: "Project Name: Full Paper Title"
   paper_url: https://arxiv.org/abs/xxxx.xxxxx
