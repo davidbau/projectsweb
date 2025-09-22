@@ -141,7 +141,7 @@
     ELM stands apart from previous approaches because it addresses all the three at the same time.
 - name: Sliderspace
   project_url: https://sliderspace.baulab.info/
-  image_url: /sliderspace.png
+  image_url: //baulab.info/sliderspace.png
   paper_title: "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models"
   paper_url: https://arxiv.org/pdf/2502.01639
   conference_name: ICCV 2025
@@ -218,7 +218,7 @@
     TBD
 - name: Unified Concept Editing in Diffusion Models
   project_url: http://unified.baulab.info/
-  image_url: /unified.png
+  image_url: //baulab.info/unified.png
   paper_title: Unified Concept Editing in Diffusion Models
   paper_url: https://arxiv.org/abs/2308.14761
   conference_name: WACV 2024
@@ -234,7 +234,7 @@
     Our UCE method is a generalization and improvement upon the <a href="//rome.baulab.info/">ROME</a>, <a href="//memit.baulab.info/">MEMIT</a>, and <a href="https://time-diffusion.github.io/">TIME</a> methods. It modifies the associations between textual concepts and visual concepts by directly editing the cross-attention parameters in the diffusion model without any additional training images. Its closed-form parameter modification explicitly applies an optimal change to sets of concepts while protecting other sets of concepts from unintended modification. The paper compares UCE to previous state-of-the-art erasure, debiasing, and offensive image removal methods and shows that our unified editing method outperforms previous separate approaches by a significant margin.
 - name: Function Vectors in Large Language Models
   project_url: http://functions.baulab.info/
-  image_url: /fv-thumb.png
+  image_url: //baulab.info/fv-thumb.png
   paper_title: Function Vectors in Large Language Models
   paper_url: https://arxiv.org/abs/2310.15213
   conference_name: ICLR 2024
@@ -251,7 +251,7 @@
     Function vectors (FVs) emerge when a language model generalizes a list of demonstrations of input-output pairs (via in-context learning, ICL). To study how ICL works, we apply causal mediation analysis to identify attention heads that transport information that determines the task to execute. This analysis reveals a small number of attention heads that transport a vector which we call a <em>function vector</em> (FV), that generically encodes the task. We study the properties of FVs, finding that they can trigger execution of the function when injected into very different contexts including natural text. We find that FVs seem to directly encode the word embeddings of the output space, and that they also trigger nontrivial transformer calculations that differ from word-vector arithmetic. FVs are able to obey semantic vector algebra, but rather than operating on word embeddings, they enable compositions of function execution.
 - name: Fine-Tuning Enhances Existing Mechanisms
   project_url: http://finetuning.baulab.info/
-  image_url: /finetuning.png
+  image_url: //baulab.info/finetuning.png
   paper_title: "Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking"
   paper_url: https://arxiv.org/abs/2402.14811
   conference_name: ICLR 2024
@@ -267,7 +267,7 @@
     The paper applies path-patching causal mediation methods as used in <a href="https://arxiv.org/abs/2211.00593">Wang 2022 (IOI)</a> to identify the components for a circuit for entity tracking that emerges after fine-tuning. Interestingly, we find that the components already existed in the model prior to fine-tuning. Furthermore we use <a href="https://dcm.baulab.info/">our DCM patching method</a> to deduce the type of information being transmitted at most of the steps before and after fine-tuning, and find that the role of the information is unchanged under fine-tuning. Finally, we introduce Cross-Model Activation Patching (CMAP) to test whether the encoding of information is changed after fine-tuning, and we find that the encodings are compatible, not only allowing interchange, but also revealing that improved task performance can be obtained by directly patching model activations between models.
 - name: Linearity of Relation Decoding in Transformer LMs
   project_url: http://lre.baulab.info/
-  image_url: /lre.png
+  image_url: //baulab.info//baulab.info/lre.png
   paper_title: Linearity of Relation Decoding in Transformer Language Models
   paper_url: https://arxiv.org/abs/2308.09124
   conference_name: ICLR 2024 (spotlight)
@@ -286,7 +286,7 @@
     When a representation vector passes through a range of transformer layers, it is subjected to a very nonlinear transformation. Yet in this paper we find that when the network resolves a specific relationship such as <em>person X plays instrument Y</em>, the action of the transformer from the vector for X to the vector for Y will often be essentially linear, suggesting that the information about Y is already present in X. Moreover the linear operator can be extracted by examining the Jacobian using as few as a single example of the relation. We analyze more than 40 different relations to determine which have a linear representation, and we introduce a tool, the <em>attribute lens</em> that exploits linearity to visualize the relational information carried in a state vector.
 - name: Concept Sliders.
   project_url: https://sliders.baulab.info/
-  image_url: /conceptsliders.png
+  image_url: //baulab.info/conceptsliders.png
   paper_title: "Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models"
   paper_url: https://arxiv.org/abs/2311.12092
   conference_name: ECCV 2024
@@ -335,7 +335,7 @@
 
 - name: Future Lens
   project_url: http://future.baulab.info/
-  image_url: /futurelens.png
+  image_url: //baulab.info/futurelens.png
   paper_title: "Future Lens: Anticipating Subsequent Tokens from a Single Hidden State"
   paper_url: https://arxiv.org/abs/2311.04897
   conference_name: CoNLL 2023
@@ -352,7 +352,7 @@
 
 - name: Erasing Concepts from Diffusion Models
   project_url: https://erasing.baulab.info/
-  image_url: /erasing.png
+  image_url: //baulab.info/erasing.png
   paper_url: https://arxiv.org/pdf/2303.07345.pdf
   conference_name: ICCV 2023
   authors:
@@ -386,7 +386,7 @@
 
 - name: Locating and Editing Factual Associations in GPT
   project_url: http://rome.baulab.info/
-  image_url: /rome-animation.gif
+  image_url: //baulab.info/rome-animation.gif
   paper_title: Locating and Editing Factual Associations in GPT
   paper_url: https://arxiv.org/abs/2202.05262
   conference_name: NeurIPS 2022
