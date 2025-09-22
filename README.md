@@ -30,6 +30,7 @@ Add projects in the `projects.yaml` file. Some of the fields are optional and ca
 ```yaml
 - name: Sample Project
   project_url: https://project-url.baulab.info/
+  paper_url: "#" # link that goes nowhere for now
   description: Just a description...
   authors: [Author1]
 ```
