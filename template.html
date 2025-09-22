@@ -40,9 +40,10 @@
       </div>
     </div>
     <div class="container">
-      {%- for project in projects -%}
+      {%- for project in projects -%} {%- if project.extra %}
       <input class="collapse" type="checkbox" />
-      <p>
+      {%- endif -%}
+      <p class="project">
         {%- if project.image_url -%}
         <img src="{{ project.image_url }}" class="projpic" />
         {%- endif -%}
