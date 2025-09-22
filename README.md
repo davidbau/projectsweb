@@ -1,8 +1,8 @@
-# Project Website Generator
+# Project Website
 
 A simple Python script to generate the Bau Lab projects website from YAML data and an HTML template.
 
-## Quick Start
+## Regenerating Website
 Ensure you have Python 3 installed. Then:
 
 1. Install dependencies:
