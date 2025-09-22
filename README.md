@@ -49,7 +49,7 @@ A full project can have the following:
   authors:
     - Author One
     - Author Two
-    - D Bau
+    - D Bau # This exact spelling will be highlighted
   description: |
     Main project description text...
   extra: |
