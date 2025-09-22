@@ -4,15 +4,16 @@ Generate static HTML from template and YAML data using Jinja2.
 Install dependencies with: `pip install jinja2 pyyaml` or run `uv sync`.
 """
 
-import yaml
+from ruamel.yaml import YAML
 from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
 
 
 def generate_site():
     # Read and parse the projects YAML file
+    yaml = YAML(typ='safe')
     with open('projects.yaml', 'r', encoding='utf-8') as f:
-        projects = yaml.safe_load(f)
+        projects = yaml.load(f)
 
     # Set up Jinja2 environment to load templates from current directory
     env = Environment(loader=FileSystemLoader('.'))

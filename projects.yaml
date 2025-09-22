@@ -1,9 +1,157 @@
+- name: Resilience
+  project_url: http://resilience.baulab.info/
+  paper_url: "#"
+  conference_name: March 2025
+  authors:
+    - D Bau
+    - T McGrath
+    - S Schwettmann
+    - D Hadfield-Menell
+  description: |
+    Large-scale artificial intelligence has begun to confront humanity with an historic challenge: how to deal with a technology that is designed to surpass the boundaries of human understanding and control? The solution lies in resilience: As a society, we must develop the ability to sustainably adapt to unexpected challenges in AI.
+- name: It's Owl in the Numbers - Token Entanglement in Subliminal Learning
+  project_url: http://owls.baulab.info/
+  paper_url: "#"
+  conference_name: 2025
+  authors:
+    - A Zur
+    - A Loftus
+    - H Orgad
+    - Z Ying
+    - K Sahin
+    - D Bau
+  description: |
+    We investigate subliminal learning, a curious phenomenon in which a language model fine-tuned on seemingly meaningless data from a teacher model acquires the teacher's hidden behaviors.
+
+- name: Patch Explorer
+  project_url: http://patch.baulab.info/
+  paper_title: "Patch Explorer: Interpreting Diffusion Models through Interaction"
+  paper_url: "#"
+  conference_name: MIV @ CVPR 2025
+  authors:
+    - I Grabe
+    - J Fiotto-Kaufman
+    - R Gandikota
+    - D Bau
+  description: |
+    TBD
+- name: Model Lakes
+  project_url: http://lakes.baulab.info/
+  paper_title: Model Lakes
+  paper_url: https://arxiv.org/abs/2403.02327
+  conference_name: EDBT 2025
+  authors:
+    - K Pal
+    - D Bau
+    - R Miller
+  description: |
+    TBD
+- name: Discovering Forbidden Topics in Language Models
+  project_url: http://forbidden.baulab.info/
+  paper_title: Discovering Forbidden Topics in Language Models
+  paper_url: https://arxiv.org/abs/2505.17441
+  conference_name: 2025
+  authors:
+    - C Rager
+    - C Wendler
+    - R Gandikota
+    - D Bau
+  description: |
+    TBD
+- name: Sparse Feature Circuits
+  project_url: http://features.baulab.info/
+  paper_title: "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models"
+  paper_url: "#"
+  conference_name: ICLR 2025
+  authors:
+    - S Marks
+    - C Rager
+    - E J Michaud
+    - Y Belinkov
+    - D Bau
+    - A Mueller
+  description: |
+    TBD
+- name: The Dual-Route Model of Induction
+  project_url: http://dualroute.baulab.info/
+  paper_title: The Dual-Route Model of Induction
+  paper_url: https://arxiv.org/abs/2504.03022
+  conference_name: COLM 2025
+  authors:
+    - S Feucht
+    - E Todd
+    - B C Wallace
+    - D Bau
+  description: |
+    TBD
+- name: Auditing AI Bias - The DeepSeek Case
+  project_url: http://dsthoughts.baulab.info/
+  paper_title: Discovering Forbidden Topics in Language Models
+  paper_url: https://arxiv.org/abs/2505.17441
+  conference_name: 2025
+  authors:
+    - C Rager
+    - D Bau
+  description: |
+    It is critical that humanity crack open and look inside AI. When we use powerful reasoning AI systems blindly, we will be inevitably unaware of the hidden goals they are trying to achieve.
+    The DeepSeek model is an excellent example of the need for transparent audits of internal reasoning. For example, many early users of DeepSeek have noticed that when asked about Tiananmen Square 1989, the model professes ignorance.
+- name: Distilling Diversity and Control in Diffusion Models
+  project_url: http://distillation.baulab.info/
+  paper_title: Distilling Diversity and Control in Diffusion Models
+  paper_url: https://arxiv.org/abs/2503.10637
+  conference_name: 2025
+  authors:
+    - R Gandikota
+    - D Bau
+  description: |
+    TBD
+- name: Language Models use Lookbacks to Track Beliefs
+  project_url: http://belief.baulab.info/
+  paper_title: Language Models use Lookbacks to Track Beliefs
+  paper_url: https://arxiv.org/abs/2505.14685
+  conference_name: 2025
+  authors:
+    - N Prakash
+    - N Shapira
+    - A Sen Sharma
+    - C Riedl
+    - Y Belinkov
+    - T Rott Shaham
+    - D Bau
+    - A Geiger
+  description: |
+    The ability to infer mental states of others—known as Theory of Mind (ToM)—is an essential aspect of social and collective intelligence. Consequently, numerous studies have explored this capability in contemporary language models (LMs). However, there is no clear consensus on the extent of these capabilities, largely because existing research relies primarily on behavioral testing. That is, it remains unclear whether LMs are leveraging surface-level statistical patterns or have genuinely learned to represent and track mental states. To address this, the present work investigates the belief-tracking mechanisms that may underlie the early signs of ToM in LMs.
+- name: Erasure of Language Memory
+  project_url: https://elm.baulab.info/
+  paper_title: Erasing Conceptual Knowledge from Language Models
+  paper_url: https://arxiv.org/pdf/2410.02760
+  conference_name: NeurIPS 2025
+  authors:
+    - R Gandikota
+    - S Feucht
+    - S Marks
+    - D Bau
+  description: |
+    When erasing a piece of knowledge from language model, it is easy to destroy the model or not erase anything at all.
+    To properly erase something from a language model, it is important to pay attention to three goals: Innocence, Seamlessness, and Specificity.
+    Innocence: the erased model should not exhibit any traces of knowledge.
+    Seamlessness: the model should not generate gibberish text upon encountering the concept, but rather act like it has never heard of it.
+    Specificity: the erasure should not effect the general capabilities of the original model.
+    We introduce a new method called Erasure of Language Memory (ELM).
+    ELM stands apart from previous approaches because it addresses all the three at the same time.
 - name: Sliderspace
-  paper_title: "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models"
-  paper_url: https://arxiv.org/pdf/2502.01639
   project_url: https://sliderspace.baulab.info/
   image_url: /sliderspace.png
+  paper_title: "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models"
+  paper_url: https://arxiv.org/pdf/2502.01639
   conference_name: ICCV 2025
+  authors:
+    - R Gandikota
+    - Z Wu
+    - R Zhang
+    - D Bau
+    - E Shechtman
+    - N Kolkin
   description: |
     Text-to-image diffusion models can create infinite diverse images from a single prompt, but we don't really understand how they organize their creative knowledge.
     Until now, users had to discover interesting creative variations through trial and error - tweaking text descriptions, combining different styles, or referencing other images.
@@ -13,67 +161,132 @@
     Instead of requiring users to find creative directions, SliderSpace automatically discovers them from the model's knowledge.
     Given a concept prompt like "toy", SliderSpace identifies the key visual variations the model knows about it and turns them into simple sliders.
     No need to tell it what to look for - SliderSpace finds these creative controls on its own.
+- name: National Deep Inference Fabric
+  project_url: https://ndif.us/
+  paper_title: "NNsight and NDIF: Democratizing Access to Open-Weight Foundation Model Internals"
+  paper_url: https://openreview.net/forum?id=MxbEiFRf39
+  conference_name: ICLR 2025 Poster
+  authors:
+    - J Fiotto-Kaufman
+    - A R Loftus
+    - E Todd
+    - J Brinkmann
+    - K Pal
+    - D Troitskii
+    - M Ripa
+    - A Belfki
+    - C Rager
+    - C Juang
+    - A Mueller
+    - S Marks
+    - A Sen Sharma
+    - F Lucchetti
+    - N Prakash
+    - C Brodley
+    - A Guha
+    - J Bell
+    - B C Wallace
+    - D Bau
+  description: |
+    The NSF National Deep Inference Fabric is a research computing project that will enable us to crack open the mysteries inside large-scale Artificial Intelligence systems.
+
+- name: ROMBA
+  project_url: http://romba.baulab.info/
+  paper_url: https://arxiv.org/pdf/2404.03646.pdf
+  paper_title: "Locating and Editing Factual Associations in Mamba"
+  conference_name: COLM 2024
+  authors:
+    - A S Sharma
+    - D Atkinson
+    - D Bau
+  description: |
+    Mamba is a new RNN language model architecture inspried by state-space models, combining the efficient training benefits of transformers with the efficient inference benefits of RNNs. It achieves competitive performance with an architecture that is very different from transformers.
+    As neural architectures continue to evolve, we must ask, can we apply the tools/techniques designed to to analyze one type of neural architecture (transformers) to another (Mamba)? Also, to what extent does our understanding of mechanisms in transformers generalize to Mamba?
+    We investigate these questions by analyzing how Mamba recalls factual associations by applying techniques that has been successful in localizing and editing facts in autoregressive transformer LMs.
+
+- name: Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs
+  project_url: http://footprints.baulab.info/
+  paper_title: Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs
+  paper_url: https://arxiv.org/abs/2406.20086
+  conference_name: EMNLP 2024
+  authors:
+    - S Feucht
+    - D Atkinson
+    - B C Wallace
+    - D Bau
+  description: |
+    TBD
+- name: Unified Concept Editing in Diffusion Models
+  project_url: http://unified.baulab.info/
+  image_url: /unified.png
+  paper_title: Unified Concept Editing in Diffusion Models
+  paper_url: https://arxiv.org/abs/2308.14761
+  conference_name: WACV 2024
   authors:
     - R Gandikota
-    - Z Wu
-    - R Zhang
+    - H Orad
+    - Y Belinkov
+    - J Materzyńska
     - D Bau
-    - E Shechtman
-    - N Kolkin
-- name: Discovering Variable Binding Circuitry
-  project_url: https://dcm.baulab.info/
-  paper_title: "Discovering Variable Binding Circuitry with Desiderata"
-  paper_url: https://arxiv.org/pdf/2307.03637.pdf
-  conference_name: Presented in Challenges of Deploying Generative AI Workshop at ICML 2023
   description: |
-    Many approaches for identifying causal model components rely on brute-force activation patching, a method that is both slow and inefficient.
-    Moreover, these methods often fall short in identifying components that collaborate to generate a desired output.
-    In this paper, we introduce a technique for automatically identifying causal model components through optimization over an intervention.
-    We establish a set of desiderata, representing the causal attributes of the model components involved in the specific task.
+    Text-to-image diffusion models such as Stable Diffusion have many issues that limit their suitability for real-world deployment: they amplify racial and gender biases; they imitate copyrighted images; and they generate offensive content. We introduce a method, Unified Concept Editing, that allows precise editing of many concepts within a diffusion model, and we show that it can be used to reduce bias, copyright, and offensive content issues simultaneously.
+  extra: |
+    Our UCE method is a generalization and improvement upon the <a href="//rome.baulab.info/">ROME</a>, <a href="//memit.baulab.info/">MEMIT</a>, and <a href="https://time-diffusion.github.io/">TIME</a> methods. It modifies the associations between textual concepts and visual concepts by directly editing the cross-attention parameters in the diffusion model without any additional training images. Its closed-form parameter modification explicitly applies an optimal change to sets of concepts while protecting other sets of concepts from unintended modification. The paper compares UCE to previous state-of-the-art erasure, debiasing, and offensive image removal methods and shows that our unified editing method outperforms previous separate approaches by a significant margin.
+- name: Function Vectors in Large Language Models
+  project_url: http://functions.baulab.info/
+  image_url: /fv-thumb.png
+  paper_title: Function Vectors in Large Language Models
+  paper_url: https://arxiv.org/abs/2310.15213
+  conference_name: ICLR 2024
   authors:
-    - X Davies
-    - M Nadeau
+    - E Todd
+    - M L Li
+    - A Sen Sharma
+    - A Mueller
+    - B C Wallace
+    - D Bau
+  description: |
+    The idea of treating a function reference as data is one of the most powerful concepts in computer science, enabling complex computational forms. Do neural networks learn to represent functions as data? In this paper, we study in-context-learning inside large transformer language models and show evidence that vector representations of functions appear.
+  extra: |
+    Function vectors (FVs) emerge when a language model generalizes a list of demonstrations of input-output pairs (via in-context learning, ICL). To study how ICL works, we apply causal mediation analysis to identify attention heads that transport information that determines the task to execute. This analysis reveals a small number of attention heads that transport a vector which we call a <em>function vector</em> (FV), that generically encodes the task. We study the properties of FVs, finding that they can trigger execution of the function when injected into very different contexts including natural text. We find that FVs seem to directly encode the word embeddings of the output space, and that they also trigger nontrivial transformer calculations that differ from word-vector arithmetic. FVs are able to obey semantic vector algebra, but rather than operating on word embeddings, they enable compositions of function execution.
+- name: Fine-Tuning Enhances Existing Mechanisms
+  project_url: http://finetuning.baulab.info/
+  image_url: /finetuning.png
+  paper_title: "Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking"
+  paper_url: https://arxiv.org/abs/2402.14811
+  conference_name: ICLR 2024
+  authors:
     - N Prakash
     - T R Shaham
+    - T Haklay
+    - Y Belinkov
     - D Bau
-- name: Erasure of Language Memory
-  paper_title: Erasing Conceptual Knowledge from Language Models
-  project_url: https://elm.baulab.info/
-  paper_url: https://arxiv.org/pdf/2410.02760
-  conference_name: NeurIPS 2025
   description: |
-    When erasing a piece of knowledge from language model, it is easy to destroy the model or not erase anything at all.
-    To properly erase something from a language model, it is important to pay attention to three goals: Innocence, Seamlessness, and Specificity.
-    Innocence: the erased model should not exhibit any traces of knowledge.
-    Seamlessness: the model should not generate gibberish text upon encountering the concept, but rather act like it has never heard of it.
-    Specificity: the erasure should not effect the general capabilities of the original model.
-    We introduce a new method called Erasure of Language Memory (ELM).
-    ELM stands apart from previous approaches because it addresses all the three at the same time.
-  authors:
-    - R Gandikota
-    - S Feucht
-    - S Marks
-    - D Bau
-- name: Erasing Concepts from Diffusion Models
-  project_url: https://erasing.baulab.info/
-  image_url: /erasing.png
-  paper_url: https://arxiv.org/pdf/2303.07345.pdf
-  conference_name: ICCV 2023
-  description: |
-    With recent advancements in image generation quality, there is a growing concern around safety, privacy and copyrighted content in diffusion-model-generated images.
-    Recent works attempt to restrict undesired content via inference methods or post-generation classification, but such methods can be easily circumvented when users have access to open-source weights.
+    When you fine-tune an LLM, are you teaching it something new or exposing what it already knows? In this work, we pin down the detailed structure of the mechanisms for an entity-tracking task using new patching techniques, revealing a pre-existing circuit when a capability emerges from fine-tuning.
   extra: |
-    In this paper, we propose a method for fine-tuning model weights to erase concepts from diffusion models using their own knowledge.
-    Given just the text of the concept to be erased, our method can edit the model weights to erase the concept while minimizing the inteference with other concepts.
-    This type of fine-tuning has an advantage over previous methods: it is not easy to circumvent because it modifies weights, yet it is fast and practical because it avoids the expense of retraining the whole model on filtered training data.
+    The paper applies path-patching causal mediation methods as used in <a href="https://arxiv.org/abs/2211.00593">Wang 2022 (IOI)</a> to identify the components for a circuit for entity tracking that emerges after fine-tuning. Interestingly, we find that the components already existed in the model prior to fine-tuning. Furthermore we use <a href="https://dcm.baulab.info/">our DCM patching method</a> to deduce the type of information being transmitted at most of the steps before and after fine-tuning, and find that the role of the information is unchanged under fine-tuning. Finally, we introduce Cross-Model Activation Patching (CMAP) to test whether the encoding of information is changed after fine-tuning, and we find that the encodings are compatible, not only allowing interchange, but also revealing that improved task performance can be obtained by directly patching model activations between models.
+- name: Linearity of Relation Decoding in Transformer LMs
+  project_url: http://lre.baulab.info/
+  image_url: /lre.png
+  paper_title: Linearity of Relation Decoding in Transformer Language Models
+  paper_url: https://arxiv.org/abs/2308.09124
+  conference_name: ICLR 2024 (spotlight)
   authors:
-    - R Gandikota
-    - J Materzyńska
-    - J Fiotto-Kaufman
+    - E Hernandez
+    - A Sen Sharma
+    - T Haklay
+    - K Meng
+    - M Wattenberg
+    - J Andreas
+    - Y Belinkov
     - D Bau
+  description: |
+    What is the right level of abstraction to use when understanding a huge network? While it is natural to examine individual neurons, attention heads, modules, and representation vectors, we should also ask whether taking a holistic view of a larger part of the network can reveal any higher-level structure. In this work, we ask how relationships between entities and their attributes are represented, and we measure the power of the Jacobian—the matrix derivative—to capture the action of a range of transformer layers in applying a relation to an entity.
+  extra: |
+    When a representation vector passes through a range of transformer layers, it is subjected to a very nonlinear transformation. Yet in this paper we find that when the network resolves a specific relationship such as <em>person X plays instrument Y</em>, the action of the transformer from the vector for X to the vector for Y will often be essentially linear, suggesting that the information about Y is already present in X. Moreover the linear operator can be extracted by examining the Jacobian using as few as a single example of the relation. We analyze more than 40 different relations to determine which have a linear representation, and we introduce a tool, the <em>attribute lens</em> that exploits linearity to visualize the relational information carried in a state vector.
 - name: Concept Sliders.
-  image_url: /conceptsliders.png
   project_url: https://sliders.baulab.info/
+  image_url: /conceptsliders.png
   paper_title: "Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models"
   paper_url: https://arxiv.org/abs/2311.12092
   conference_name: ECCV 2024
@@ -105,3 +318,84 @@
     evaluates over 50 different concept sliders including very interesting
     sliders that reduce visible distortions in diffusion model output, and
     examines their efficacy, specificity, and composability.
+
+- name: Mass Editing Memory in a Transformer
+  project_url: http://memit.baulab.info/
+  paper_title: Mass Editing Memory in a Transformer
+  paper_url: "#"
+  conference_name: ICLR 2023
+  authors:
+    - K Meng
+    - A Sen Sharma
+    - A Andonian
+    - Y Belinkov
+    - D Bau
+  description: |
+    TBD
+
+- name: Future Lens
+  project_url: http://future.baulab.info/
+  image_url: /futurelens.png
+  paper_title: "Future Lens: Anticipating Subsequent Tokens from a Single Hidden State"
+  paper_url: https://arxiv.org/abs/2311.04897
+  conference_name: CoNLL 2023
+  authors:
+    - K Pal
+    - J Sun
+    - A Yuan
+    - B C Wallace
+    - D Bau
+  description: |
+    Autoregressive language models like GPT are trained to predict the next word. But we found they are also often thinking several further tokens ahead! In this work, we measure this future information, and we show how to extend the <a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens">logit lens</a> to reveal a run of future anticipated tokens from individual transformer hidden states.
+  extra: |
+    Our paper experiments with several ways to decode future tokens from a single hidden state. Inspired by "tuned lens" methods from <a href="https://arxiv.org/abs/2303.08112">Belrose</a> and <a href="https://arxiv.org/abs/2303.09435">Yom Din</a> that skip to future <em>layers</em>, we first try training a simple linear readout model. We also try transplanting the hidden state into the context of a prompt specially chosen to evoke future output. Using a <a href="https://aclanthology.org/2021.acl-long.353/">tuned prompt</a> reveals that two-ahead tokens can be predicted with more than 48% accuracy, which is good enough to be useful for "future lens" visualizations.
+
+- name: Erasing Concepts from Diffusion Models
+  project_url: https://erasing.baulab.info/
+  image_url: /erasing.png
+  paper_url: https://arxiv.org/pdf/2303.07345.pdf
+  conference_name: ICCV 2023
+  authors:
+    - R Gandikota
+    - J Materzyńska
+    - J Fiotto-Kaufman
+    - D Bau
+  description: |
+    With recent advancements in image generation quality, there is a growing concern around safety, privacy and copyrighted content in diffusion-model-generated images.
+    Recent works attempt to restrict undesired content via inference methods or post-generation classification, but such methods can be easily circumvented when users have access to open-source weights.
+  extra: |
+    In this paper, we propose a method for fine-tuning model weights to erase concepts from diffusion models using their own knowledge.
+    Given just the text of the concept to be erased, our method can edit the model weights to erase the concept while minimizing the inteference with other concepts.
+    This type of fine-tuning has an advantage over previous methods: it is not easy to circumvent because it modifies weights, yet it is fast and practical because it avoids the expense of retraining the whole model on filtered training data.
+- name: Discovering Variable Binding Circuitry
+  project_url: https://dcm.baulab.info/
+  paper_title: Discovering Variable Binding Circuitry with Desiderata
+  paper_url: https://arxiv.org/pdf/2307.03637.pdf
+  conference_name: Presented in Challenges of Deploying Generative AI Workshop at ICML 2023
+  authors:
+    - X Davies
+    - M Nadeau
+    - N Prakash
+    - T R Shaham
+    - D Bau
+  description: |
+    Many approaches for identifying causal model components rely on brute-force activation patching, a method that is both slow and inefficient.
+    Moreover, these methods often fall short in identifying components that collaborate to generate a desired output.
+    In this paper, we introduce a technique for automatically identifying causal model components through optimization over an intervention.
+    We establish a set of desiderata, representing the causal attributes of the model components involved in the specific task.
+
+- name: Locating and Editing Factual Associations in GPT
+  project_url: http://rome.baulab.info/
+  image_url: /rome-animation.gif
+  paper_title: Locating and Editing Factual Associations in GPT
+  paper_url: https://arxiv.org/abs/2202.05262
+  conference_name: NeurIPS 2022
+  authors:
+    - K Meng
+    - D Bau
+    - A Andonian
+    - Y Belinkov
+  description: |
+    In this project, we show that factual knowledge within GPT also corresponds to a <b>localized computation that can be directly edited</b>. For example, we can make a small change to a small set of the weights of GPT-J to teach it the counterfactual "Eiffel Tower is located in the city of Rome." Rather than merely regurgitating the new sentance, it will generalize that specific counterfactual knowledge and apply it in very different linguistic contexts.
+  extra: |
+    To show that factual knowledge within a GPT model corresponds to a simple, localized, and directly editable computation, we introduce three new concepts. (1) We introduce Causal Tracing, a method to locate decisive information within a network by corrupting and restoring hidden neural states; traces reveal how information about a fact is retrieved by MLP layers in the network. (2) We show how to apply rank-one matrix edits (ROME) to change individual memories within an MLP module within a transformer. (3) And we show how to distinguish between generalized factual knowledge and rote regurgitation of a fact, using a new data set called CounterFact.
