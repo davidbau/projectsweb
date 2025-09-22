@@ -1,6 +1,8 @@
 # Project Website
 
-A simple Python script to generate the Bau Lab projects website from YAML data and an HTML template.
+David Bau's lab project list website.
+
+This repo uses a simple Python script to generate the Bau Lab projects website from YAML data and an HTML template.
 
 ## Regenerating Website
 Ensure you have Python 3 installed. Then:
