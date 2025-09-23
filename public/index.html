@@ -35,8 +35,7 @@
   <body>
     <div class="nd-pageheader">
       <div class="container">
-        <h1>Project List</h1>
-        <h5><a href="https://baulab.info">Back to main page</a></h5>
+        <h1>Projects at the <a href="https://baulab.info">Bau Lab</a></h1>
       </div>
     </div>
     <div class="container"><p class="project"><a href="http://resilience.baulab.info/">Resilience</a>
@@ -89,7 +88,7 @@ ELM stands apart from previous approaches because it addresses all the three at 
 <a href="https://arxiv.org/pdf/2410.02760">R Gandikota, S Feucht, S Marks, <span class="me">D Bau</span>.
           <em>Erasing Conceptual Knowledge from Language Models</em>. 
           <nobr>NeurIPS 2025.</nobr></a></p>
-      <input class="collapse" type="checkbox" /><p class="project"><img src="//baulab.info/sliderspace.png" class="projpic" /><a href="https://sliderspace.baulab.info/">Sliderspace</a>
+      <input class="collapse" type="checkbox" /><p class="project"><img src="/sliderspace.png" class="projpic" /><a href="https://sliderspace.baulab.info/">Sliderspace</a>
         Text-to-image diffusion models can create infinite diverse images from a single prompt, but we don't really understand how they organize their creative knowledge.
 Until now, users had to discover interesting creative variations through trial and error - tweaking text descriptions, combining different styles, or referencing other images.
 This process relies heavily on user creativity rather than understanding what the model actually knows about different concepts.
@@ -140,7 +139,7 @@ We investigate these questions by analyzing how Mamba recalls factual associatio
  </span><a href="https://arxiv.org/abs/2402.14811">N Prakash, T R Shaham, T Haklay, Y Belinkov, <span class="me">D Bau</span>.
           <em>Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking</em>. 
           <nobr>ICLR 2024.</nobr></a></p>
-      <input class="collapse" type="checkbox" /><p class="project"><img src="//baulab.info//baulab.info/lre.png" class="projpic" /><a href="http://lre.baulab.info/">Linearity of Relation Decoding in Transformer LMs</a>
+      <input class="collapse" type="checkbox" /><p class="project"><img src="/lre.png" class="projpic" /><a href="http://lre.baulab.info/">Linearity of Relation Decoding in Transformer LMs</a>
         What is the right level of abstraction to use when understanding a huge network? While it is natural to examine individual neurons, attention heads, modules, and representation vectors, we should also ask whether taking a holistic view of a larger part of the network can reveal any higher-level structure. In this work, we ask how relationships between entities and their attributes are represented, and we measure the power of the Jacobian—the matrix derivative—to capture the action of a range of transformer layers in applying a relation to an entity.
 
         <span class="more"></span>
@@ -148,7 +147,7 @@ We investigate these questions by analyzing how Mamba recalls factual associatio
  </span><a href="https://arxiv.org/abs/2308.09124">E Hernandez, A Sen Sharma, T Haklay, K Meng, M Wattenberg, J Andreas, Y Belinkov, <span class="me">D Bau</span>.
           <em>Linearity of Relation Decoding in Transformer Language Models</em>. 
           <nobr>ICLR 2024 (spotlight).</nobr></a></p>
-      <input class="collapse" type="checkbox" /><p class="project"><img src="//baulab.info/conceptsliders.png" class="projpic" /><a href="https://sliders.baulab.info/">Concept Sliders.</a>
+      <input class="collapse" type="checkbox" /><p class="project"><img src="/conceptsliders.png" class="projpic" /><a href="https://sliders.baulab.info/">Concept Sliders.</a>
         While GANs are famous for containing disenangled latents that can
 control a variety of interpretable image attributes, it has not been
 known whether similar controllable latents are present in diffusion
@@ -211,6 +210,13 @@ We establish a set of desiderata, representing the causal attributes of the mode
  </span><a href="https://arxiv.org/abs/2202.05262">K Meng, <span class="me">D Bau</span>, A Andonian, Y Belinkov.
           <em>Locating and Editing Factual Associations in GPT</em>. 
           <nobr>NeurIPS 2022.</nobr></a></p></div>
+    <footer class="nd-pagefooter">
+      <div class="row">
+        <div class="col-6 col-md text-center">
+          <a href="https://baulab.info/">About the Bau Lab</a>
+        </div>
+      </div>
+    </footer>
     <script>
       $(document).on("click", ".more, input.collapse + p", function (ev) {
         // Do not collapse a card if the click is for a hyperlink or selection.

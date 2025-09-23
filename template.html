@@ -35,8 +35,7 @@
   <body>
     <div class="nd-pageheader">
       <div class="container">
-        <h1>Project List</h1>
-        <h5><a href="https://baulab.info">Back to main page</a></h5>
+        <h1>Projects at the <a href="https://baulab.info">Bau Lab</a></h1>
       </div>
     </div>
     <div class="container">
@@ -65,6 +64,13 @@
       </p>
       {%- endfor -%}
     </div>
+    <footer class="nd-pagefooter">
+      <div class="row">
+        <div class="col-6 col-md text-center">
+          <a href="https://baulab.info/">About the Bau Lab</a>
+        </div>
+      </div>
+    </footer>
     <script>
       $(document).on("click", ".more, input.collapse + p", function (ev) {
         // Do not collapse a card if the click is for a hyperlink or selection.
