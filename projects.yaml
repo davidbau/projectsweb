@@ -267,7 +267,7 @@
     The paper applies path-patching causal mediation methods as used in <a href="https://arxiv.org/abs/2211.00593">Wang 2022 (IOI)</a> to identify the components for a circuit for entity tracking that emerges after fine-tuning. Interestingly, we find that the components already existed in the model prior to fine-tuning. Furthermore we use <a href="https://dcm.baulab.info/">our DCM patching method</a> to deduce the type of information being transmitted at most of the steps before and after fine-tuning, and find that the role of the information is unchanged under fine-tuning. Finally, we introduce Cross-Model Activation Patching (CMAP) to test whether the encoding of information is changed after fine-tuning, and we find that the encodings are compatible, not only allowing interchange, but also revealing that improved task performance can be obtained by directly patching model activations between models.
 - name: Linearity of Relation Decoding in Transformer LMs
   project_url: http://lre.baulab.info/
-  image_url: /lre.png
+  image_url: //baulab.info/lre.png
   paper_title: Linearity of Relation Decoding in Transformer Language Models
   paper_url: https://arxiv.org/abs/2308.09124
   conference_name: ICLR 2024 (spotlight)
