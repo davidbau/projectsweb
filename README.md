@@ -5,13 +5,14 @@ David Bau's lab project list website.
 This repo uses a simple Python script to generate the Bau Lab projects website from YAML data and an HTML template.
 
 ## Regenerating Website
-Ensure you have Python 3 installed. Then:
+Ensure you have Python 3 and uv installed. Then:
 
 1. Install dependencies:
 
-   Use either uv:
+   Use either uv to set up a local venv:
    ```bash
    uv sync
+   source .venv/bin/activate
    ```
 
    Or pip:

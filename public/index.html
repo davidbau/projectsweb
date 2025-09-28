@@ -172,9 +172,35 @@ sliders that reduce visible distortions in diffusion model output, and
 examines their efficacy, specificity, and composability.
  </span><a href="https://arxiv.org/abs/2311.12092">R Gandikota, J Materzyńska, T Zhou, A Torralba, <span class="me">D Bau</span>.
           <em>Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models</em>. 
-          <nobr>ECCV 2024.</nobr></a></p><p class="project"><a href="http://memit.baulab.info/">Mass Editing Memory in a Transformer</a>
-        TBD
-<a href="#">K Meng, A Sen Sharma, A Andonian, Y Belinkov, <span class="me">D Bau</span>.
+          <nobr>ECCV 2024.</nobr></a></p>
+      <input class="collapse" type="checkbox" /><p class="project"><a href="http://memit.baulab.info/">Mass Editing Memory in a Transformer</a>
+        Previously in <a href="https://rome.baulab.info/">ROME</a> we found
+that we can surgically edit a single fact in a language model using
+a targeted rank-one weight update. But that raises a natural
+question: can direct editing methods scale beyond individual facts?
+What happens when we attempt to modify hundreds or thousands of
+associations simultaneously?  MEMIT (Mass Editing Memory in a
+Transformer) extends ROME's single-edit approach to enable
+thousands of simultaneous memory updates.
+
+        <span class="more"></span>
+        <span class="extra"> While ROME demonstrated that factual associations could be
+localized and edited through rank-one modifications to MLP weights
+at a single layer, MEMIT distributes these updates across multiple
+critical layers. This multi-layer approach is key: by coordinating
+changes across the layers that work together to recall memories,
+MEMIT can insert massive batches of new facts without the
+interference problems that plague single-layer methods.
+MEMIT spreads memory updates across layers so they reinforce each
+other by directly computing a distribution of changes that
+cumulatively ensure all new memories are properly encoded by the
+final mediating layer. In benchmarks, MEMIT successfully updates
+thousands of facts simultaneously, orders of magnitude more than
+previous approaches, while preserving the model's general
+capabilities. It demonstrates that direct parameter editing can
+operate at scales relevant to practical problems in large
+language models.
+ </span><a href="#">K Meng, A Sen Sharma, A Andonian, Y Belinkov, <span class="me">D Bau</span>.
           <em>Mass Editing Memory in a Transformer</em>. 
           <nobr>ICLR 2023.</nobr></a></p>
       <input class="collapse" type="checkbox" /><p class="project"><img src="//baulab.info/futurelens.png" class="projpic" /><a href="http://future.baulab.info/">Future Lens</a>

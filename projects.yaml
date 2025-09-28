@@ -331,7 +331,31 @@
     - Y Belinkov
     - D Bau
   description: |
-    TBD
+    Previously in <a href="https://rome.baulab.info/">ROME</a> we found
+    that we can surgically edit a single fact in a language model using
+    a targeted rank-one weight update. But that raises a natural
+    question: can direct editing methods scale beyond individual facts?
+    What happens when we attempt to modify hundreds or thousands of
+    associations simultaneously?  MEMIT (Mass Editing Memory in a
+    Transformer) extends ROME's single-edit approach to enable
+    thousands of simultaneous memory updates.
+  extra: |
+    While ROME demonstrated that factual associations could be
+    localized and edited through rank-one modifications to MLP weights
+    at a single layer, MEMIT distributes these updates across multiple
+    critical layers. This multi-layer approach is key: by coordinating
+    changes across the layers that work together to recall memories,
+    MEMIT can insert massive batches of new facts without the
+    interference problems that plague single-layer methods.
+    MEMIT spreads memory updates across layers so they reinforce each
+    other by directly computing a distribution of changes that
+    cumulatively ensure all new memories are properly encoded by the
+    final mediating layer. In benchmarks, MEMIT successfully updates
+    thousands of facts simultaneously, orders of magnitude more than
+    previous approaches, while preserving the model's general
+    capabilities. It demonstrates that direct parameter editing can
+    operate at scales relevant to practical problems in large
+    language models.
 
 - name: Future Lens
   project_url: http://future.baulab.info/
