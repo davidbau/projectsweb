@@ -165,6 +165,7 @@
   project_url: https://ndif.us/
   paper_title: "NNsight and NDIF: Democratizing Access to Open-Weight Foundation Model Internals"
   paper_url: https://openreview.net/forum?id=MxbEiFRf39
+  image_url: /ndif.png
   conference_name: ICLR 2025 Poster
   authors:
     - J Fiotto-Kaufman
