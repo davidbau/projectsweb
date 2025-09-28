@@ -284,7 +284,7 @@
     What is the right level of abstraction to use when understanding a huge network? While it is natural to examine individual neurons, attention heads, modules, and representation vectors, we should also ask whether taking a holistic view of a larger part of the network can reveal any higher-level structure. In this work, we ask how relationships between entities and their attributes are represented, and we measure the power of the Jacobian—the matrix derivative—to capture the action of a range of transformer layers in applying a relation to an entity.
   extra: |
     When a representation vector passes through a range of transformer layers, it is subjected to a very nonlinear transformation. Yet in this paper we find that when the network resolves a specific relationship such as <em>person X plays instrument Y</em>, the action of the transformer from the vector for X to the vector for Y will often be essentially linear, suggesting that the information about Y is already present in X. Moreover the linear operator can be extracted by examining the Jacobian using as few as a single example of the relation. We analyze more than 40 different relations to determine which have a linear representation, and we introduce a tool, the <em>attribute lens</em> that exploits linearity to visualize the relational information carried in a state vector.
-- name: Concept Sliders.
+- name: Concept Sliders
   project_url: https://sliders.baulab.info/
   image_url: /conceptsliders.png
   paper_title: "Concept Sliders: LoRA Adaptors for Precise Control in Diffusion Models"

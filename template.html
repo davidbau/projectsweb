@@ -46,7 +46,7 @@
         {%- if project.image_url -%}
         <img src="{{ project.image_url }}" class="projpic" />
         {%- endif -%}
-        <a href="{{ project.project_url }}">{{ project.name }}</a>
+        <a href="{{ project.project_url }}">{{ project.name }}.</a>
         {{ project.description | safe }} {%- if project.extra %}
         <span class="more"></span>
         <span class="extra"> {{ project.extra | safe }} </span>
