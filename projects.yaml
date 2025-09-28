@@ -322,7 +322,8 @@
 - name: Mass Editing Memory in a Transformer
   project_url: http://memit.baulab.info/
   paper_title: Mass Editing Memory in a Transformer
-  paper_url: "#"
+  paper_url: https://arxiv.org/abs/2210.07229
+  image_url: /memit.png
   conference_name: ICLR 2023
   authors:
     - K Meng
