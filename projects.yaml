@@ -83,7 +83,9 @@
     - B C Wallace
     - D Bau
   description: |
-    TBD
+    Imagine you are asked to copy a sentence onto a fresh sheet of paper. There are two ways of copying: you could transfer every individual letter (t, h, e, _...), or you could leverage your familiarity with English to copy a few words at a time.
+    In this work, we differentiate two types of induction heads: token induction heads, which copy bit-by-bit, and concept induction heads, which copy word meanings instead of individual tokens. Concept induction heads work together with token induction heads to copy meaningful text. 
+    By identifying these two types of heads, we can separate the meaning of a word from how that word is written in LLM representation space. 
 - name: Auditing AI Bias - The DeepSeek Case
   project_url: http://dsthoughts.baulab.info/
   paper_title: Discovering Forbidden Topics in Language Models
@@ -216,7 +218,8 @@
     - B C Wallace
     - D Bau
   description: |
-    TBD
+     In current LLMs, the meaning of a word often has nothing to do with its constituent tokens. For example, the word "northeastern" might be tokenized as "n," "ort," "he," "astern," without any reference to the concepts of "north" or "east." 
+     Regardless, LLMs still seem to understand the meaning of these tokens put together. In this work, we show that LLMs often "erase" surface-level token information contained in multi-token words, possibly because it is not useful for representing the semantics of those words.
 - name: Unified Concept Editing in Diffusion Models
   project_url: http://unified.baulab.info/
   image_url: //baulab.info/unified.png
