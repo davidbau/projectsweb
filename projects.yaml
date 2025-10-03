@@ -111,6 +111,7 @@
   project_url: http://belief.baulab.info/
   paper_title: Language Models use Lookbacks to Track Beliefs
   paper_url: https://arxiv.org/abs/2505.14685
+  image_url: /belief.png
   conference_name: 2025
   authors:
     - N Prakash
@@ -122,7 +123,7 @@
     - D Bau
     - A Geiger
   description: |
-    The ability to infer mental states of others—known as Theory of Mind (ToM)—is an essential aspect of social and collective intelligence. Consequently, numerous studies have explored this capability in contemporary language models (LMs). However, there is no clear consensus on the extent of these capabilities, largely because existing research relies primarily on behavioral testing. That is, it remains unclear whether LMs are leveraging surface-level statistical patterns or have genuinely learned to represent and track mental states. To address this, the present work investigates the belief-tracking mechanisms that may underlie the early signs of ToM in LMs.
+    When we read a story, we naturally keep track of what each character knows, even if someone is mistaken. In this project, we investigated how LLMs do the same and found that it uses a clever “lookback” strategy, similar to pointers in C programming, to recall who knows what.
 - name: Erasure of Language Memory
   project_url: https://elm.baulab.info/
   paper_title: Erasing Conceptual Knowledge from Language Models
